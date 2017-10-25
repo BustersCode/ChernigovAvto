@@ -1,0 +1,11 @@
+.contacts-wrapper {
+	max-width: 1024px;
+	width: 100%;
+	min-height: 1px;
+	display: flex;
+}
+.google-map-route {
+	max-width: 500px;
+	width: 100%;
+	
+}
