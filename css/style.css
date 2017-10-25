@@ -1,0 +1,32 @@
+.container{
+  width:100%;
+}
+
+.black-first{
+  background-color:black;
+  height:40px;
+}
+
+.nav-wrapper{
+  background-color:#61210B;
+}
+
+.photo-slider1{
+
+}
+
+.slider-photo-1{
+  background-image:url(../img/slider1.jpg);
+}
+
+/*.slider-photo-2{
+  background-image:url(../img/slider2.jpg);
+}
+
+.slider-photo-3{
+  background-image:url(../img/slider3.jpg);
+}
+
+.slider-photo-4{
+  background-image:url(../img/slider4.jpg);
+}*/
