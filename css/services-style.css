@@ -1,0 +1,110 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	transition: all .2s;
+}
+.wrapper-shares {
+	width: 80%;
+	background-color: lightgrey;
+	height: 400px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.box {
+	width: 30%;
+	height: 45%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.post-1 {
+	background: url(../img/changing-oil.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.post-2 {
+	background-color: blue;
+}
+.post-3 {
+	background-color: yellow;
+}
+.post-4 {
+	background-color: orange;
+}
+.post-5 {
+	background-color: green;
+}
+.post-6 {
+	background-color: black;
+}
+.ghost-button {
+    display: inline-block;
+    width: 55%;
+    padding: 2% 0;
+    font-size: 20px;
+    margin: 0 0 2% 2%;
+    color: #ffffff;
+    border: 3px solid #ccc;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+.div-right-hover {
+	width: 40%;
+	height: 50%;
+	border-radius: 100% 0 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid #ccc;
+	transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.div-right-hover:hover,
+.div-right-hover:active {
+  transform: translate(-70%, -50%) scale(2);
+  border-radius: 0%;
+
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+.div-right-hover:hover .block{
+    display:block;
+}
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+}
+.price {
+	color: #f4d238;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 25% 0 0 15%;
+}
+
+
+
