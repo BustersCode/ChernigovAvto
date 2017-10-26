@@ -95,7 +95,7 @@
 #footer{
 	border-top: 4px solid #494c58;
 	background: #7a6652;
-	min-height: 280px;
+	min-height: 200px;
 	padding: 20px 0 0;
 }
 
@@ -120,7 +120,7 @@
 	height: 2px;
 }
 
-#footer .footer-top ul li a {
+#footer .footer-wrk-hours, .footer-top ul li a {
 	font: 500 12px Arial,sans-serif;
 	color: #fff;
 }
@@ -129,7 +129,7 @@
 	margin-bottom: 10px;
 	color: #fff;
 }
-#footer .footer-top ul .footer-service-list-menu {
+#footer .footer-top ul.footer-service-list-menu {
 	width: 50%;
 	float: left;
 }
