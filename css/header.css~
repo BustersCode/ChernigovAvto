@@ -1,0 +1,42 @@
+.container{
+  width:100%;
+  max-width:100%;
+}
+
+body{
+	background-color:rgba(0,0,0,1);
+}
+/* ABOVE NAV*/
+.black-first{
+  background-color:black;
+  height:60px;
+}
+
+.black-first::before{
+ content: "\f082";
+ position:absolute;
+}
+
+.black-first span{
+	color:white;
+    float:right;
+    font-size:1.5em;
+    margin-top:10px;
+    padding-right:10px;
+}
+/*ICONS*/
+.twitter { 
+     background: url(../img/social-icons/twitter1.png) 0 -20% no-repeat;
+     background-size:34px;
+     
+     margin-top:4px;
+     filter:grayscale(100%);
+     position:absolute;
+     left:20px;
+
+     }
+ .facebook { 
+     background: url(../img/social-icons/facebook1.png)  0 -15% no-repeat;
+     background-size:34px;
+     
+     margin-top:4px;

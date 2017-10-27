@@ -1,0 +1,265 @@
+.container{
+  width:100%;
+  max-width:100%;
+}
+
+body{
+	background-color:rgba(0,0,0,1);
+}
+/* ABOVE NAV*/
+.black-first{
+  background-color:black;
+  height:60px;
+}
+
+.black-first::before{
+ content: "\f082";
+ position:absolute;
+}
+
+.black-first span{
+	color:white;
+    float:right;
+    font-size:1.5em;
+    margin-top:10px;
+    padding-right:10px;
+}
+/*ICONS*/
+.twitter { 
+     background: url(../img/social-icons/twitter1.png) 0 -20% no-repeat;
+     background-size:34px;
+     
+     margin-top:4px;
+     filter:grayscale(100%);
+     position:absolute;
+     left:20px;
+
+     }
+ .facebook { 
+     background: url(../img/social-icons/facebook1.png)  0 -15% no-repeat;
+     background-size:34px;
+     
+     margin-top:4px;
+     filter:grayscale(100%);
+     position:absolute;
+     left:80px;
+     z-index:11;
+      }
+
+ .linkedin { 
+     background: url(../img/social-icons/linkedin1.png)  top no-repeat;
+     background-size:34px;
+     position:absolute;
+     
+     margin-top:4px;
+     filter:grayscale(100%);
+     position:absolute;
+     left:140px;
+     
+       }
+
+.icons {
+    background-color:#585858;
+    border-radius: 8px;
+    
+    width:40px;
+    height:40px;
+    margin-left:10px;
+    text-align:center;
+
+
+}
+
+.facebook:hover{
+    filter:none;
+    background-size:38px;
+
+}
+.twitter:hover{
+    filter:none;
+    background-size:38px;
+
+}
+.linkedin:hover{
+    filter:none;
+    background-size:38px;
+
+}
+
+/*NAV MENU*/
+
+
+.nav-wrapper{
+  background-color:    #8B0000 /*#800000*/;
+
+ }
+nav{
+	height:180px;
+	border-bottom:solid #FF0000 2px;
+}
+nav li {
+    margin-top:90px;
+	margin-right:120px;
+
+}
+nav ul a {
+	font-weight: bold;
+	font-size:1.7em;
+}
+nav a{
+	font-size:1em;
+}
+
+.brand-logo{
+    
+	margin-left:380px;
+}
+
+
+
+
+.slider-photo-1{
+  background-image:url(../img/slider1.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+.text-on-slider {
+    width: 900px;
+    height: 750px;
+    position: absolute;
+    top: 0px;
+    background: linear-gradient(to right, black 60% ,rgba(54,54,54,0.05) ); 
+
+}
+
+
+.carousel{
+	height:750px;
+}
+
+
+
+.slider-photo-2{
+  background-image:url(../img/slider2.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+.slider-photo-3{
+  background-image:url(../img/slider3.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+.slider-photo-4{
+  background-image:url(../img/slider4.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+
+/*INFORMATION ON SLIDER*/
+
+.info-slider{
+
+   width:800px;
+   height:500px;
+   background-color:rgba(80,0,0,0.7);
+   border:solid white 2px;
+   margin-top:140px;
+   margin-left:100px;
+   position:absolute;
+   z-index:10;
+   padding:20px;
+   padding-right:40px;
+   font-size:1.6em;
+}
+
+
+/*BUTTON <*/
+.text-on-slider div:nth-child(2){
+  
+  position:absolute;
+  left:4500px;
+  top:320px;
+  padding-bottom:5px;
+
+}
+
+.carousel.carousel-slider .carousel-item p:first-child {
+    font-size: 2em;
+    margin-left:30px;
+    margin-top:20px;
+    height:60px;
+
+}
+.text-on-slider p{
+	
+	height:60px;
+	text-align: left;
+	margin-left:30px;
+
+}
+
+.carousel.carousel-slider .carousel-item p:nth-child(2n) {
+    font-size: 1.4em;
+    margin-left:30px;
+    margin-top:20px;
+    height:60px;
+
+}
+.carousel.carousel-slider .carousel-item p:nth-child(3) {
+    font-size: 1em;
+    margin-left:30px;
+    margin-top:20px;
+    height:60px;
+
+}
+
+.info-slider a{
+	margin-top:60px;
+	margin-left:30px;
+	border:solid white 2px;
+
+
+}
+
+
+@media screen and (max-width:768px) and (min-width: 480px){
+
+	.black-first span {display:none;}
+    
+    nav .brand-logo{right:-500px;}
+    .info-slider {width:471px; margin-left:27px;};
+	}
+
+
+
+
+
+
+
+@media screen and  (max-width: 480px){
+
+    .info-slider {width:380px; height:600px; margin-left:20px;};
+    .info-slider p{font-size:0.5em;}
+
+     .info-slider a{margin-top:190px;}
+     nav .brand-logo{right:-450px;}
+    }
+}
+
+
+
+@media screen and  (max-width: 1024px){
+	
+  info-slider {width:670px; height:600px; margin-left:39px;};
+}
+
+#mobile-demo li{
+	margin-top:20px;
+}
+.slider-btn:hover{
+
+}
