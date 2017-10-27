@@ -5,7 +5,7 @@
 }
 .wrapper-shares {
 	width: 80%;
-	background-color: lightgrey;
+	background-color: #3f4144;
 	height: 400px;
 	margin: 0 auto;
 
@@ -25,22 +25,43 @@
 	background: url(../img/changing-oil.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-
 }
 .post-2 {
-	background-color: blue;
+	background: url(../img/dry-cleaning.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .post-3 {
-	background-color: yellow;
+	background: url(../img/electrician.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .post-4 {
-	background-color: orange;
+	background: url(../img/salon.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .post-5 {
-	background-color: green;
+	background: url(../img/under.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .post-6 {
-	background-color: black;
+	background: url(../img/wheels.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.price {
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 24px;
+	font-weight: bold;
+	padding: 25% 0 0 15%;
+}
+.price-info {
+	font-family: Arial, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 150%;
 }
 .ghost-button {
     display: inline-block;
@@ -66,8 +87,8 @@
               border-color 0.3s ease-in;
 }
 .div-right-hover {
-	width: 40%;
-	height: 50%;
+	width: 35%;
+	height: 45%;
 	border-radius: 100% 0 0 0;
 	display: flex;
 	justify-content: center;
@@ -78,9 +99,7 @@
 }
 .div-right-hover:hover,
 .div-right-hover:active {
-  transform: translate(-70%, -50%) scale(2);
   border-radius: 0%;
-
   background-color: rgba(255, 255, 255, 0.9);
   border-color: rgba(255, 255, 255, 0.4);
   transition: background-color 0.3s ease-in,
@@ -88,23 +107,113 @@
 }
 .div-right-hover:hover .block{
     display:block;
+    border: 3px solid #ccc;
+    text-align: center;
+    background: rgba(255,255,255, 0.95);
+    transform: translate(-60%, -36%) scale(1.5);
 }
-.block{
-    position:absolute;
+.block {
+    position: relative;
     left:0;
     bottom:0;
     right:0;
     top:0;
+    min-width: 192%;
+    min-height: 145%;
     background:rgba(255,255,255, 0.7);
-    padding:5px;
     display:none;
 }
-.price {
-	color: #f4d238;
-	font-size: 24px;
-	font-weight: bold;
-	padding: 25% 0 0 15%;
+.div-right-hover:hover .block-2{
+    display:block;
+    border: 3px solid #ccc;
+    text-align: center;
+    background: rgba(255,255,255, 0.95);
+    transform: translate(-60%, -36%) scale(1.5);
 }
+.block-2 {
+    position: relative;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    min-width: 192%;
+    min-height: 145%;
+    background:rgba(255,255,255, 0.7);
+    display:none;
+}
+.div-right-hover:hover .block-3{
+    display:block;
+    border: 3px solid #ccc;
+    text-align: center;
+    background: rgba(255,255,255, 0.95);
+    transform: translate(-60%, -36%) scale(1.5);
+}
+.block-3 {
+    position: relative;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    min-width: 192%;
+    min-height: 145%;
+    background:rgba(255,255,255, 0.7);
+    display:none;
+}
+.div-right-hover:hover .block-4{
+    display:block;
+    border: 3px solid #ccc;
+    text-align: center;
+    background: rgba(255,255,255, 0.95);
+    transform: translate(-60%, -36%) scale(1.5);
+}
+.block-4 {
+    position: relative;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    min-width: 192%;
+    min-height: 145%;
+    background:rgba(255,255,255, 0.7);
+    display:none;
+}
+.div-right-hover:hover .block-5{
+    display:block;
+    border: 3px solid #ccc;
+    text-align: center;
+    background: rgba(255,255,255, 0.95);
+    transform: translate(-60%, -36%) scale(1.5);
+}
+.block-5 {
+    position: relative;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    min-width: 192%;
+    min-height: 145%;
+    background:rgba(255,255,255, 0.7);
+    display:none;
+}
+.div-right-hover:hover .block-6{
+    display:block;
+    border: 3px solid #ccc;
+    text-align: center;
+    background: rgba(255,255,255, 0.95);
+    transform: translate(-60%, -36%) scale(1.5);
+}
+.block-6 {
+    position: relative;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    min-width: 192%;
+    min-height: 145%;
+    background:rgba(255,255,255, 0.7);
+    display:none;
+}
+
 
 
 
