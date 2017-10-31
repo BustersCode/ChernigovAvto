@@ -1,0 +1,227 @@
+
+
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="UTF-8">
+      <!--CSS FILE-->
+      <link rel = "stylesheet" href = "css/header.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <title>AUTO</title>
+    </head>
+
+    <body>
+
+<div class="container-fluid">
+
+<!-- NavMenu-->
+
+<div class="black-first" >
+      <span text-color="white">03048, Киев, Озерная 16 |  Свяжитесь с нами (044)246-1277</span>
+   
+     <a class="twitter icons"  href="#"></a>
+     <a class="facebook icons" href="#"></a>
+     <a class="linkedin icons" href="#"></a>
+    
+
+</div>
+
+
+<!--NAV-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid line-nav">
+    <div class="navbar-header">
+      <a href="#!" class="brand-logo"><img src="img/logo.png" alt="ЛОГОТИП" width="190"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#">ГЛАВНАЯ</a></li>
+      <li><a href="#">УСЛУГИ</a></li>
+      <li><a href="#">АКЦИИ</a></li>
+      <li><a href="#">О КОМПАНИИ</a></li>
+      <li><a href="#">КОНТАКТЫ</a></li>
+    </ul>
+  </div>
+</nav>
+    
+
+      
+
+
+ <div id="block-for-slider">
+        <div id="viewport">
+            <ul id="slidewrapper">
+
+<!-- 1 slider img-->
+               <li class="slide"><img src="img/slider1.jpg" alt="1" class="slide-img">
+                <div class="text-on-slider"> 
+                  <div class="info-slider">
+                       <b><p>50% СКИДКА</p></b>
+                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
+                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
+                      <button type="button" class="btn btn-default">Детали акции</button>
+                       
+                  </div>
+                </div>
+              </li>
+
+
+<!--2 slider img-->
+              <li class="slide"><img src="img/slider1.jpg" alt="2" class="slide-img ">
+                <div class="text-on-slider"> 
+                  <div class="info-slider">
+                       <b><p>50% СКИДКА</p></b>
+                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
+                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
+                     
+                       
+                  </div>
+                </div>
+              </li>
+
+
+ <!--3 slider img-->
+               <li class="slide"><img src="img/slider1.jpg" alt="3" class="slide-img">
+                <div class="text-on-slider"> 
+                  <div class="info-slider">
+                       <b><p>50% СКИДКА</p></b>
+                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
+                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
+                     
+                       
+                  </div>
+                </div>
+              </li> 
+<!-- 4 slider img_-->
+              <li class="slide"><img src="img/slider1.jpg" alt="4" class="slide-img">
+                <div class="text-on-slider"> 
+                  <div class="info-slider">
+                       <b><p>50% СКИДКА</p></b>
+                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
+                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
+                     
+                       
+                  </div>
+                </div>
+              </li>            
+               
+            </ul>
+
+
+
+    <!--Next-PREW-BOTTOM-->        
+
+            <div id="prev-next-btns">
+                <div id="prev-btn">&lsaquo;</div>
+                <div id="next-btn">&rsaquo;</div>
+            </div>
+
+            <ul id="nav-btns">
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+                <li class="slide-nav-btn"></li>
+            </ul>
+        </div>
+    </div>
+
+  
+
+
+
+
+     
+   </div>   <!--for container
+
+
+
+      <!--Import jQuery before materialize.js-->
+   
+
+      <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+      
+
+<script>
+var slideNow = 1;
+var slideCount = $('#slidewrapper').children().length;
+var slideInterval = 2000;
+var navBtnId = 0;
+var translateWidth = 0;
+
+$(document).ready(function() {
+    var switchInterval = setInterval(nextSlide, slideInterval);
+
+    $('#viewport').hover(function() {
+        clearInterval(switchInterval);
+    }, function() {
+        switchInterval = setInterval(nextSlide, slideInterval);
+    });
+
+    $('#next-btn').click(function() {
+        nextSlide();
+    });
+
+    $('#prev-btn').click(function() {
+        prevSlide();
+    });
+
+    $('.slide-nav-btn').click(function() {
+        navBtnId = $(this).index();
+
+        if (navBtnId + 1 != slideNow) {
+            translateWidth = -$('#viewport').width() * (navBtnId);
+            $('#slidewrapper').css({
+                'transform': 'translate(' + translateWidth + 'px, 0)',
+                '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+                '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+            });
+            slideNow = navBtnId + 1;
+        }
+    });
+});
+
+
+function nextSlide() {
+    if (slideNow == slideCount || slideNow <= 0 || slideNow > slideCount) {
+        $('#slidewrapper').css('transform', 'translate(0, 0)');
+        slideNow = 1;
+    } else {
+        translateWidth = -$('#viewport').width() * (slideNow);
+        $('#slidewrapper').css({
+            'transform': 'translate(' + translateWidth + 'px, 0)',
+            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+        });
+        slideNow++;
+    }
+}
+
+function prevSlide() {
+    if (slideNow == 1 || slideNow <= 0 || slideNow > slideCount) {
+        translateWidth = -$('#viewport').width() * (slideCount - 1);
+        $('#slidewrapper').css({
+            'transform': 'translate(' + translateWidth + 'px, 0)',
+            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+        });
+        slideNow = slideCount;
+    } else {
+        translateWidth = -$('#viewport').width() * (slideNow - 2);
+        $('#slidewrapper').css({
+            'transform': 'translate(' + translateWidth + 'px, 0)',
+            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+        });
+        slideNow--;
+    }
+}</script>
+ 
+    </body>
+  </html>
+        
