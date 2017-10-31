@@ -11,6 +11,8 @@ body{
 
 /* ABOVE NAV*/
 
+
+
 .black-first{
   background-color:black;
   height:60px;
@@ -19,7 +21,7 @@ body{
 .black-first::before{
  content: "\f082";
  position:absolute;
-}
+} 
 
 .black-first span{
 	color:white;
@@ -94,36 +96,6 @@ body{
 
 /*NAV MENU*/
 
-a{
-  text-decoration: none;
-  color:white;
-}
-nav{
-	height:21em;
-
-	}
-.navbar-nav>li>a{
-  margin-top:6em;
-}
-
-
-nav ul a {
-	font-weight: bold;
-	font-size:1.3em;
-
-}
-nav a{
-	font-size:1em;
-}
-
-.brand-logo{
-    
-	margin-left:6em;
-}
-
-.navbar-nav a:hover{
-  border:solid black 2px;
-}
 
 
 
