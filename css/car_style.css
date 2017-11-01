@@ -43,7 +43,7 @@ button:focus {
     /* opacity: 0; */
     /* display: none; */
     /* z-index: 1; */
-    width: 38vw;
+    width: 52rem;
     
 }
 .list_transmition {
@@ -72,7 +72,7 @@ button:focus {
 }
 .engine-btn {
     /* display: none;     */
-    width: 35vw;
+    width: 49rem;
 }
 .list_engine {
     display: none;
@@ -93,8 +93,8 @@ button:focus {
     position: absolute;
     top: 180px;
     left: 49px;
-    width: 24vw;
-    height: 10vw;
+    width: 32rem;
+    height: 13rem;
 }
 .fl-btn {
     display: none;
@@ -127,7 +127,7 @@ button:focus {
 }
 .body-btn {
     display: none;
-    width: 28vw;    
+    width: 38rem;    
 }
 .list_body {
     display: none;

@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'B52';
+    src: url('../fonts/B52.ttf') format('truetype');
+}
+
+
 .no-gutter {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
@@ -16,7 +22,8 @@
 .nav > li > a {
 	color: #494C58;
 	font-weight: 600;
-	line-height: 63px;
+    line-height: 63px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav > li > a:focus, .nav > li > a:hover {
@@ -29,6 +36,7 @@
 }
 
 .header .top-bar .site-info {
+    
     font: 16px open sans,Helvetica Neue,Arial,sans-serif;
     text-align: right;
     color: #fff;
