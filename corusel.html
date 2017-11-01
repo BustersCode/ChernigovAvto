@@ -5,14 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- <script src="js/carousel.js"></script> -->
+    <!-- <script type="text/javascript" src="js/carousel.js"></script> -->
+    <script src="js/jquery.jqDock.min.js"></script>
+    <script type='text/javascript'>
+        
+        jQuery(document).ready(function($){
+        
+          $('#menu-carousel').jqDock();
+        
+        });
+        
+        </script>
+        
     <link rel="stylesheet" href="css/carousel.css">
     <title>carousel</title>
 </head>
 <body>
         <div id='menu-carousel'>
+                <!-- <div class="bmw-logo100x100"></div>
+                <div class="fiat100x100"></div> -->
                 <img src='img/tiny-logo/audi-logo100x100.png' title='Pictures' alt='' />
                 <img src='img/tiny-logo/autowp100x100.png' title='Music' alt='' />
-                <img src='img/tiny-logo/avtovaza100x100.png' title='Music' alt='' />
+                <img src='img/tiny-logo/avtovaza100x100.png' title='Favourites' alt='' />
                 <img src='img/tiny-logo/bmw_logo100x100.png' title='Music' alt='' />
                 <img src='img/tiny-logo/chevrolet100x100.png' title='Music' alt='' />
                 <img src='img/tiny-logo/citroen-logo100x100.png' title='Music' alt='' />
