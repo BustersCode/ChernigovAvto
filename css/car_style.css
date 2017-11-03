@@ -191,11 +191,16 @@ button:focus {
     border-radius: 0;
     /* width: 200px; */
 }
-.drop-menu li {
-    
+.drop-menu.nav.btn > li > a {
+    line-height: initial;
 }
 .drop-menu a {
     color: black;
     text-transform: uppercase;
     font-size: 12px;
+}
+@media screen and (orientation:portrait) and (max-width:992px), screen and (orientation:landscape) and (max-width:768px) {
+    .car-box {
+        display: none;
+    }
 }
