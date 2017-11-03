@@ -1,3 +1,3 @@
-$(document).ready(function(){
+$(document).ready(function($){
 			$('.menu-karusel-test').jqDock();
 		});

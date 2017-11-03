@@ -515,6 +515,10 @@
 
 /* corusel */
 
+.menu-karusel-test {
+    overflow: hidden;
+}
+
 
 /* end corusel */
 
@@ -579,3 +583,4 @@
 }
 
 /*end footer*/
+
