@@ -31,73 +31,21 @@ body{
 }
 
 .black-first span{
-	color:white;
-    float:right;
+	  color:white;
     font-size:1.5em;
     margin-top:10px;
-    padding-right:10px;
 }
+
+
 /*ICONS*/
 
-.twitter { 
-     background: url(../img/social-icons/twitter1.png) 0 -20% no-repeat;
-     background-size:34px;
-     
-     margin-top:4px;
-     filter:grayscale(100%);
-     position:absolute;
-     left:20px;
-
-     }
- .facebook { 
-     background: url(../img/social-icons/facebook1.png)  0 -10% no-repeat;
-     background-size:34px;
-     
-     margin-top:4px;
-     filter:grayscale(100%);
-     position:absolute;
-     left:80px;
-     z-index:11;
-      }
-
- .linkedin { 
-     background: url(../img/social-icons/linkedin1.png)  top no-repeat;
-     background-size:34px;
-     position:absolute;
-     
-     margin-top:4px;
-     filter:grayscale(100%);
-     position:absolute;
-     left:140px;
-     
-       }
-
-.icons {
-    background-color:#585858;
-    border-radius: 8px;
-    
-    width:40px;
-    height:40px;
-    margin-left:10px;
-    text-align:center;
-
-
+.black-first i{
+  font-size:36px;
+  color:gray;
+  margin-left:3px;
 }
-
-.facebook:hover{
-    filter:none;
-    background-size:38px;
-
-}
-.twitter:hover{
-    filter:none;
-    background-size:38px;
-
-}
-.linkedin:hover{
-    filter:none;
-    background-size:38px;
-
+.black-first i:hover{
+  color:white;
 }
 
 
@@ -150,7 +98,6 @@ nav a{
 
 
 
-
 /*TEXT_ON_SLIDER*/
 .item img{
   width:100%;
@@ -189,7 +136,9 @@ nav a{
   font-size:1.5em;
 }
 
-
+.container-slider{
+  height:auto;
+}
 
 /* GRADIENT ON SLIDER IMG*/
 
@@ -245,6 +194,7 @@ nav a{
 
 
 @media screen and  (max-width: 480px){
+  
 
   .black-first span{display:none;}
   nav{ height:30em;}
