@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'B52';
-    src: url('../fonts/B52.ttf') format('truetype');
+    font-family: b52;
+    src: url('../fonts/b52.eot') format('eot'),
+        url('../fonts/b52.otf') format('opentype');
 }
-
 
 .no-gutter {
 	padding-left: 0 !important;
@@ -23,7 +23,8 @@
 	color: #494C58;
 	font-weight: 600;
     line-height: 63px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-family: 'b52', 'Arial', sans-serif;
 }
 
 .nav > li > a:focus, .nav > li > a:hover {
@@ -49,7 +50,7 @@
 }
 
 .navbar-right {
-	margin-right: 86px;
+	margin-right: 20px;
 	margin-top: 55px;
 }
 
@@ -584,3 +585,59 @@
 
 /*end footer*/
 
+/* contacts.html*/
+
+.contacts-wrapper {
+    max-width: 944px;
+    width: 100%;
+    min-height: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.contacts-wrapper h2 {
+    width: 100%;
+}
+.google-map-route {
+    width: 58%;
+}
+.contacts-table {
+    width: 38%;
+
+}
+.feedback {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .google-map-route {
+        width: 90%;
+        order: 2;
+    }
+    .contacts-table {
+        width: 90%;
+        order: 0;
+    }
+    .contacts-table table {
+        width: 100%;
+        border-spacing: 10px;
+    }
+    .contacts-table td:first-child {
+        text-align: right;
+        width: 50%;
+    }
+    
+    .contacts-wrapper h2 {
+        text-align: center;
+    }
+    .feedback {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+/* end contacts.html*/
