@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function($){
     // NOTE : the z-indexing used in this example's css and script will not have the
     // desired effect in IE below version 8; you'd have to use a jquery $().hover()
