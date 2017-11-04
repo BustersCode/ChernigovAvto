@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-	<link rel="stylesheet" href="css/car_style.css">
+    <!-- mobile menu -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- mobile menu -->
+    <link rel="stylesheet" href="css/car_style.css">
     <link rel="stylesheet" href="css/base_style.css">
     <link rel="stylesheet" href="css/animate.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -34,7 +38,7 @@
         <!-- social -->
                 <div class="col-xs-8 site-info">
                     <div class="site-info-block">
-                            <span text-color="white">03048, Киев, Озерная 16 |  Свяжитесь с нами (044)246-1277</span>
+                            <i class="fa fa-map-marker" aria-hidden="true" aria-hidden="true"></i> <span text-color="white">03048, Киев, Озерная 16 |  Свяжитесь с нами <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:000999222" class="footer-phone"><strong>(777)908-87-67</strong></a></span>
                     </div>
                 </div>
               
@@ -42,24 +46,31 @@
             </div>
             <!-- top-bar end -->
 
-            <!-- navigation -->
-        
-            <nav class="navbar navbar-default">
-                    <div class="container header-menu">
+            <!-- navigation -->    
+           <nav class="navbar navbar-default">
+                    <div class="container-fluid header-menu">
                       <div class="navbar-header">
-                          
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                          </button>
                         <div class="header-logo">
                             <a href="#!" class="brand-logo"><img src="img/logoShAv.png" alt="Logo" width="120"></a>
                         </div>
                       
                     </div>
-                      <ul class="nav navbar-nav navbar-right">
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+
+                      <ul class="nav navbar-nav nav-top navbar-right">
                         <li><a href="#">ГЛАВНАЯ</a></li>
                         <li><a href="#">УСЛУГИ</a></li>
                         <li><a href="#">АКЦИИ</a></li>
                         <li><a href="#">О КОМПАНИИ</a></li>
                         <li><a href="#">КОНТАКТЫ</a></li>
                       </ul>
+                    </div>
                     </div>
                   </nav>
         <!-- navigation end -->
@@ -68,184 +79,32 @@
 
         <!-- slider -->
 
-        <section id="slider-section" class="container-flutd no-gutter">
+        <section id="slider-section">
+                <div class="container-flutd no-gutter"> 
 
-                <div class="block-for-slider">
-                        <div id="viewport">
-                            <ul id="slidewrapper">
-                
-                <!-- 1 slider img-->
-                               <li class="slide"><img src="img/slider1.jpg" alt="1" class="slide-img">
-                                <div class="text-on-slider"> 
-                                  <div class="info-slider col-md-5 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-7 col-xs-offset-3">
-                                       <b><p>50% СКИДКА</p></b>
-                                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
-                                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
-                                      <button type="button" class="btn btn-default">Детали акции</button>
-                                       
-                                  </div>
-                                </div>
-                              </li>
-                
-                
-                <!--2 slider img-->
-                              <li class="slide"><img src="img/slider1.jpg" alt="2" class="slide-img ">
-                                <div class="text-on-slider"> 
-                                  <div class="info-slider col-md-5 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-7 col-xs-offset-3">
-                                       <b><p>50% СКИДКА</p></b>
-                                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
-                                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
-                                     
-                                       
-                                  </div>
-                                </div>
-                              </li>
-                
-                
-                 <!--3 slider img-->
-                               <li class="slide"><img src="img/slider1.jpg" alt="3" class="slide-img">
-                                <div class="text-on-slider"> 
-                                  <div class="info-slider col-md-5 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-7 col-xs-offset-3 col-xs-offset-3">
-                                       <b><p>50% СКИДКА</p></b>
-                                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
-                                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
-                                     
-                                       
-                                  </div>
-                                </div>
-                              </li> 
-                <!-- 4 slider img_-->
-                              <li class="slide"><img src="img/slider1.jpg" alt="4" class="slide-img">
-                                <div class="text-on-slider"> 
-                                  <div class="info-slider col-md-5 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-7 col-xs-offset-3">
-                                       <b><p>50% СКИДКА</p></b>
-                                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
-                                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
-                                     
-                                       
-                                  </div>
-                                </div>
-                              </li>            
-                               
-                            </ul>
-                
-                
-                
-                    <!--Next-PREW-BOTTOM-->        
-                
-                            <div id="prev-next-btns">
-                                <div id="prev-btn">&lsaquo;</div>
-                                <div id="next-btn">&rsaquo;</div>
-                            </div>
-                
-                            <ul id="nav-btns">
-                                <li class="slide-nav-btn"></li>
-                                <li class="slide-nav-btn"></li>
-                                <li class="slide-nav-btn"></li>
-                                <li class="slide-nav-btn"></li>
-                            </ul>
-                        </div>
-                    </div>
-                
-                  
-                
-                
-                
-                
-                     
-                   </div>   <!--for container
-                
-                
-                
-                      <!--Import jQuery before materialize.js-->
-                   
-                
-                      <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+                    
+                    <!-- SLIDER -->
+                    <!-- SLIDER -->
+                    <!-- SLIDER -->
+
+                    <div class="jumbotron">
+                            <h1>Где то здесь должен быть слайдер</h1>      
+                            <p><a href="https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_carousel&stacked=h">Слайдер Бутстрапа</a></p>
+                          </div>
+
+
+
                       
-                
-                <script>
-                var slideNow = 1;
-                var slideCount = $('#slidewrapper').children().length;
-                var slideInterval = 10000;
-                var navBtnId = 0;
-                var translateWidth = 0;
-                
-                $(document).ready(function() {
-                    var switchInterval = setInterval(nextSlide, slideInterval);
-                
-                    $('#viewport').hover(function() {
-                        clearInterval(switchInterval);
-                    }, function() {
-                        switchInterval = setInterval(nextSlide, slideInterval);
-                    });
-                
-                    $('#next-btn').click(function() {
-                        nextSlide();
-                    });
-                
-                    $('#prev-btn').click(function() {
-                        prevSlide();
-                    });
-                
-                    $('.slide-nav-btn').click(function() {
-                        navBtnId = $(this).index();
-                
-                        if (navBtnId + 1 != slideNow) {
-                            translateWidth = -$('#viewport').width() * (navBtnId);
-                            $('#slidewrapper').css({
-                                'transform': 'translate(' + translateWidth + 'px, 0)',
-                                '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
-                                '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
-                            });
-                            slideNow = navBtnId + 1;
-                        }
-                    });
-                });
-                
-                
-                function nextSlide() {
-                    if (slideNow == slideCount || slideNow <= 0 || slideNow > slideCount) {
-                        $('#slidewrapper').css('transform', 'translate(0, 0)');
-                        slideNow = 1;
-                    } else {
-                        translateWidth = -$('#viewport').width() * (slideNow);
-                        $('#slidewrapper').css({
-                            'transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
-                        });
-                        slideNow++;
-                    }
-                }
-                
-                function prevSlide() {
-                    if (slideNow == 1 || slideNow <= 0 || slideNow > slideCount) {
-                        translateWidth = -$('#viewport').width() * (slideCount - 1);
-                        $('#slidewrapper').css({
-                            'transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
-                        });
-                        slideNow = slideCount;
-                    } else {
-                        translateWidth = -$('#viewport').width() * (slideNow - 2);
-                        $('#slidewrapper').css({
-                            'transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
-                        });
-                        slideNow--;
-                    }
-                }</script>
 
-
+                </div>
+    
         </section>
         <!-- slider -->
 
         <!-- car -->
 
-        <section id="car-section" class="container-flutd no-gutter">
-            <div class="container">
+        <section id="car-section">
+            <div class="container container-flutd no-gutter ">
 
                     <div class="car_box">
                             
@@ -313,23 +172,7 @@
                                                     </ul>
                                             </div>		
                                         </div>
-                                        <div class="clean">
-                                            <img class="clean-btn" src="img/shower.png" alt="">
-                                            <div class="list_clean">
-                                                    <ul class="drop-menu btn btn-default nav nav-pills nav-stacked disabled">
-                                                        <li>
-                                                            <a href="">lorem</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="">lorem</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="">lorem</a>
-                                                        </li>
-                                                    </ul>
-                                            </div>
-                                    
-                                        </div>
+                                      
                                     </div>
                             
                                 </div>
@@ -343,71 +186,135 @@
 
         <!-- services -->
 
-        <main>
-                <div class="wrapper-shares">
-                    <div class="box post-1">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block">
-                                <p class="price-info">Лучшая цена недели! Всего: 599 грн</p>
+        <section id="cervices-section">
+            <div class="container container-flutd no-gutter ">
+
+                <!-- ROW 1 -->
+                    
+                    <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                <img src="img/changing-oil.png" alt="oil change">
+                                <div class="caption">
+                                  <h3>Thumbnail label</h3>
+                                  <p>Deserunt eiusmod ex eiusmod voluptate
+                                       dolore ullamco mollit excepteur exe
+                                       rcitation culpa tempor commodo adip
+                                       isicing. Dolor reprehenderit sit ut
+                                        nisi voluptate eiusmod. Adipisicin
+                                        g est enim velit voluptate est vel
+                                        it ut occaecat ad labore deserunt.
+                                        </p>
+                                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                </div>
+                              </div>
                             </div>
-                        </div>
+
+                            <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                      <img src="img/electrician.png" alt="electrician">
+                                      <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Deserunt eiusmod ex eiusmod voluptate
+                                             dolore ullamco mollit excepteur exe
+                                             rcitation culpa tempor commodo adip
+                                             isicing. Dolor reprehenderit sit ut
+                                              nisi voluptate eiusmod. Adipisicin
+                                              g est enim velit voluptate est vel
+                                              it ut occaecat ad labore deserunt.
+                                              </p>
+                                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-sm-6 col-md-4">
+                                        <div class="thumbnail">
+                                          <img src="img/salon.png" alt="oil change">
+                                          <div class="caption">
+                                            <h3>Thumbnail label</h3>
+                                            <p>Deserunt eiusmod ex eiusmod voluptate
+                                                 dolore ullamco mollit excepteur exe
+                                                 rcitation culpa tempor commodo adip
+                                                 isicing. Dolor reprehenderit sit ut
+                                                  nisi voluptate eiusmod. Adipisicin
+                                                  g est enim velit voluptate est vel
+                                                  it ut occaecat ad labore deserunt.
+                                                  </p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                          </div>
+                                        </div>
+                                      </div>
                     </div>
-                    <div class="box post-2">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-2">
-                                <p class="price-info">Лучшая цена недели! Всего: 555 грн</p>
+                   <!-- ROW 2 -->
+
+                   <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                          <div class="thumbnail">
+                            <img src="img/changing-oil.png" alt="oil change">
+                            <div class="caption">
+                              <h3>Thumbnail label</h3>
+                              <p>Deserunt eiusmod ex eiusmod voluptate
+                                   dolore ullamco mollit excepteur exe
+                                   rcitation culpa tempor commodo adip
+                                   isicing. Dolor reprehenderit sit ut
+                                    nisi voluptate eiusmod. Adipisicin
+                                    g est enim velit voluptate est vel
+                                    it ut occaecat ad labore deserunt.
+                                    </p>
+                              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
                             </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="box post-3">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-3">
-                                <p class="price-info">Лучшая цена недели! Всего: 888 грн</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box post-4">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-4">
-                                <p class="price-info">Лучшая цена недели! Всего: 777 грн</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box post-5">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-5">
-                                <p class="price-info">Лучшая цена недели! Всего: 299 грн</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box post-6">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-6">
-                                <p class="price-info">Лучшая цена недели! Всего: 199 грн</p>
-                            </div>
-                        </div>
-                    </div>	
+
+                        <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                  <img src="img/electrician.png" alt="electrician">
+                                  <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <p>Deserunt eiusmod ex eiusmod voluptate
+                                         dolore ullamco mollit excepteur exe
+                                         rcitation culpa tempor commodo adip
+                                         isicing. Dolor reprehenderit sit ut
+                                          nisi voluptate eiusmod. Adipisicin
+                                          g est enim velit voluptate est vel
+                                          it ut occaecat ad labore deserunt.
+                                          </p>
+                                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                      <img src="img/salon.png" alt="oil change">
+                                      <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Deserunt eiusmod ex eiusmod voluptate
+                                             dolore ullamco mollit excepteur exe
+                                             rcitation culpa tempor commodo adip
+                                             isicing. Dolor reprehenderit sit ut
+                                              nisi voluptate eiusmod. Adipisicin
+                                              g est enim velit voluptate est vel
+                                              it ut occaecat ad labore deserunt.
+                                              </p>
+                                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
                 </div>
-            </main>
+
+                    
+
+            </div>
+        </section>
 
         <!-- end services -->
 
         <!-- corusel -->
 
-            <section>
-
+        <section id="cervices-section">
+                <div class="container container-flutd no-gutter ">
                     <div class='menu-karusel-test'>
                             <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
                             <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
@@ -428,7 +335,8 @@
                             <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
                             <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
                             <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
-                        </body>
+                    </div>
+                </div>
 
 
             </section>

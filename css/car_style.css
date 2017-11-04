@@ -193,14 +193,23 @@ button:focus {
 }
 .drop-menu.nav.btn > li > a {
     line-height: initial;
+    border-radius: 0;
 }
 .drop-menu a {
     color: black;
     text-transform: uppercase;
     font-size: 12px;
 }
+
+#car-section {
+    height: 500px;
+}
+
 @media screen and (orientation:portrait) and (max-width:992px), screen and (orientation:landscape) and (max-width:768px) {
-    .car_box {
+    .car_box, .info-slider{
         display: none;
+    }
+    #car-section {
+        height: 0px;
     }
 }
