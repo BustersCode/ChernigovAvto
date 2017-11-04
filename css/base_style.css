@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 @font-face {
     font-family: b52;
     src: url('../fonts/b52.eot') format('eot'),
         url('../fonts/b52.otf') format('opentype');
 }
 /**/
-=======
 
->>>>>>> master
 .no-gutter {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
