@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 @font-face {
     font-family: b52;
     src: url('../fonts/b52.eot') format('eot'),
         url('../fonts/b52.otf') format('opentype');
 }
 /**/
+=======
+
+>>>>>>> master
 .no-gutter {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
@@ -63,8 +67,11 @@
 
 /* SLIDER*/
 
+.slider-section {
+    margin-top: 110px;
+}
 
-#block-for-slider {
+.block-for-slider {
     width: 100%;
     margin: 0 auto;
 	margin-top: 110px;
@@ -75,7 +82,7 @@
     width: 100%;
     position: relative;
     overflow: hidden;
-    max-height:600px;
+    max-height:450px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -196,25 +203,23 @@
 
 
 .info-slider {
-
-   width:700px;
-   height:350px;
    background-color:rgba(139, 58, 58, 0.8);
    border:solid white 2px;
    position: absolute;
-   padding:20px;
+   padding:10px;
    padding-right:40px;
-   font-size:1.6em;
-   top:160px;
-   left:120px;
+   top:50px;
+   left:60px;
    z-index:11;
    color:white;
    text-align:left;
+   font-size: 1.5em;
 }
 
 .info-slider p:first-child{
   font-size:3em;
 }
+
 
 
 /*BOTTOM SLIDER ON IMG*/
