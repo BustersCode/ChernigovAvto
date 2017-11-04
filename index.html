@@ -22,6 +22,7 @@
 </head>
 <body>
     <div class="wrapper">
+        
         <!-- header -->
         <section class="header container-fluid no-gutter">
             <!-- top-bar -->
@@ -420,6 +421,52 @@
             <!-- end footer -->
              
     </div>
+
+    <div class="container">
+            
+             <!-- Trigger the modal with a button -->
+             <button type="button" class="btn btn-info btn-lg pulse-button" data-toggle="modal" data-target="#myModal">Запись на сервис</button>
+           
+             <!-- Modal -->
+             <div class="modal fade" id="myModal" role="dialog">
+               <div class="modal-dialog modal-sm">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <form class="feedback-form" action="/action_page.php">
+               <label for="fname">Фамилия</label>
+               <input type="text" id="fname" name="firstname" placeholder="Ваша фамилия..">
+           
+               <label for="lname">Имя</label>
+               <input type="text" id="lname" name="lastname" placeholder="Ваше имя..">
+           
+               <label for="country">Город</label>
+               <select id="country" name="country">
+                 <option value="australia">Киев</option>
+                 <option value="canada">Чернигов</option>
+                 <option value="usa">Браворы</option>
+               </select>
+               <label for="date">Желаемая дата</label><br>
+               <input type="date" id="date" name="date" placeholder="Желаемая дата.."><br>
+               <label for="tel">Номер телефона</label><br>
+               <input type="tel" id="tel" name="tel" placeholder="Ваш номер телефона.."><br>
+               <label for="tel">Номер автомобиля</label><br>
+               <input type="tel" id="tel" name="tel" placeholder="Номер Вашего атомобиля.."><br>
+               <label for="subject">Комментарии</label>
+               <textarea id="subject" name="subject" placeholder="Ваши комментарии.." ></textarea>
+             
+              <br>
+               <input class="button" type="submit" value="ОТПРАВИТЬ">
+             </form>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           
+           
 
     
 
