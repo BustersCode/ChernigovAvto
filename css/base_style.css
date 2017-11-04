@@ -492,7 +492,7 @@ input[type=submit]{
 /*FIXED PULSE  BUTTON*/
 .pulse-button {
   position: fixed;
-  top: 80%;
+  top: 75%;
   right: 5%;
   width: 240px;
   height: 50px;
