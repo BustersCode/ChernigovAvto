@@ -4,6 +4,13 @@
         url('../fonts/b52.otf') format('opentype');
 }
 
+:root {
+    font-size: calc(1vw + 1vh + .5vmin);
+  }
+  body {
+    font: 0.7em/1.6 "Open Sans", sans-serif;
+  }
+
 .no-gutter {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
@@ -292,7 +299,6 @@
 }
 
 #footer .footer-wrk-hours, .footer-top ul li a {
-	font: 500 12px Arial,sans-serif;
 	color: #fff;
 }
 #footer .footer-top ul li {
@@ -496,7 +502,7 @@ input[type=submit]{
   right: 5%;
   width: 240px;
   height: 50px;
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: bold;
   color: white;
   text-shadow: 0 1px 0 #1f4c76;

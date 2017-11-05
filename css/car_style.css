@@ -19,10 +19,7 @@ button:focus {
     position: relative;
 }
 .car {
-    position: relative;
-    height: 35vw;
-    left: 104px;
-    top: 4rem;
+    margin-top: 4em;
 }
 
 .car_img {
@@ -32,6 +29,8 @@ button:focus {
     width: 1200px; */
     position: relative;
     /* z-index: 10; */
+    height: 21.5em;
+    width: 54em;
     
 }
 .wheel {
@@ -45,7 +44,7 @@ button:focus {
     /* opacity: 0; */
     /* display: none; */
     /* z-index: 1; */
-    width: 52rem;
+    width: 28em;
     
 }
 .list_transmition {
@@ -74,7 +73,7 @@ button:focus {
 }
 .engine-btn {
     /* display: none;     */
-    width: 49rem;
+    width: 26em;
 }
 .list_engine {
     display: none;
@@ -95,8 +94,8 @@ button:focus {
     position: absolute;
     top: 180px;
     left: 49px;
-    width: 32rem;
-    height: 13rem;
+    width: 19em;
+    height: 7em;
 }
 .fl-btn {
     display: none;
@@ -129,7 +128,7 @@ button:focus {
 }
 .body-btn {
     display: none;
-    width: 38rem;    
+    width: 20.5em;    
 }
 .list_body {
     display: none;
