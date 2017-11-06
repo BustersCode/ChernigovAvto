@@ -23,7 +23,7 @@ button:focus {
 }
 .car_box {
     position: relative;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     /* overflow: hidden; */
     height: 18rem;
 }
@@ -44,8 +44,6 @@ button:focus {
     width: 37rem;
     position: relative;
     /* z-index: 10; */
-    height: 21.5em;
-    width: 54em;
     
 }
 .wheel {
@@ -60,10 +58,6 @@ button:focus {
     /* display: none; */
     z-index: 2;
     width: 20.3rem;
-
-    /* z-index: 1; */
-    width: 28em;
-    
 }
 .list_transmition {
     display: none;
@@ -94,14 +88,12 @@ button:focus {
 
     display: none;    
     width: 17rem;
-    /* display: none;     */
-    width: 26em;
 }
 .list_engine {
     display: none;
     /* opacity: 0; */
     position: absolute;
-    top: -5rem;
+    top: -2rem;
     left: 9rem;
 }
 .engine:hover .engine-btn {
@@ -118,12 +110,8 @@ button:focus {
     left: 0.5rem;
     width: 12rem;
     height: 5rem;
-    top: 180px;
-    left: 49px;
-    width: 19em;
-    height: 7em;
 }
-.fl-btn {
+    .fl-btn {
     display: none;
     /* opacity: 0; */
     width: 12.8rem;
@@ -156,8 +144,7 @@ button:focus {
 }
 .body-btn {
     display: none;
-    /* width: 14.7rem; эта строка так тут и была то есть были и ремы и ем-ы */
-    width: 22.5em;   
+    width: 14.7rem;
 }
 .list_body {
     display: none;
@@ -178,7 +165,7 @@ button:focus {
 .clean {
     position: absolute;
     top: 0;
-    left: 3rem;
+    left: 1rem;
     width: 17rem;
     height: 17rem;
 }
@@ -221,7 +208,6 @@ button:focus {
 }
 .drop-menu.nav.btn > li > a {
     line-height: initial;
-    border-radius: 0;
 }
 .drop-menu a {
     color: black;
