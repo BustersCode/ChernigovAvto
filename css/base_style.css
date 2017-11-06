@@ -322,8 +322,8 @@
 .social-media a {
     display: inline-block;
     float: left;
-    margin-right: 8px;
-    font-size: 28px;
+    margin-right: 0.5em;
+    font-size: 2em;
 	color: #fff;
 }
 
@@ -499,8 +499,8 @@ input[type=submit]{
   position: fixed;
   top: 75%;
   right: 5%;
-  width: 240px;
-  height: 50px;
+  width: 12em;
+  height: 3em;
   font-size: 1.5em;
   font-weight: bold;
   color: white;
