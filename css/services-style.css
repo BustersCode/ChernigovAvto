@@ -1,76 +1,51 @@
-* {
-	padding: 0px;
-	margin: 0px;
-	transition: all .2s;
+/*Обертка для акций*/
+.wrapper-posts {
+    width: 80%;
+    margin: 0 auto;
 }
-.wrapper-shares {
-	width: 80%;
-	background-color: #3f4144;
-	height: 400px;
-	margin: 0 auto;
-
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	align-items: center;
+/*Оформление блока акции*/
+.img-box {
+    margin-bottom: 1%;
+    height: 250px;
+    border: 3px solid #fff;
+    border-radius: 10px;
 }
-.box {
-	width: 30%;
-	height: 45%;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+.img-box:hover {
+    box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.5), 0 1px 0px rgba(0, 0, 0, 0.1);
 }
 .post-1 {
-	background: url(../img/changing-oil.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(../img/changing-oil.png) no-repeat;
+    background-size: cover; 
 }
 .post-2 {
-	background: url(../img/dry-cleaning.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(../img/dry-cleaning.png) no-repeat;
+    background-size: cover;
 }
 .post-3 {
-	background: url(../img/electrician.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(../img/electrician.png) no-repeat;
+    background-size: cover;
 }
 .post-4 {
-	background: url(../img/salon.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(../img/salon.png) no-repeat;
+    background-size: cover;
 }
 .post-5 {
-	background: url(../img/under.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(../img/under.png) no-repeat;
+    background-size: cover;
 }
 .post-6 {
-	background: url(../img/wheels.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(../img/wheels.png) no-repeat;
+    background-size: cover;
 }
-.price {
-	color: rgba(255, 255, 255, 0.9);
-	font-size: 24px;
-	font-weight: bold;
-	padding: 25% 0 0 15%;
-}
-.price-info {
-	font-family: Arial, sans-serif;
-	font-size: 22px;
-	font-weight: bold;
-	line-height: 150%;
+/*Оформление кнопок*/
+.services-button-box {
+ display: flex;
+ justify-content: space-around;
+ position: relative;
+ top: 40%;
 }
 .ghost-button {
-    display: inline-block;
-    width: 55%;
-    padding: 2% 0;
-    font-size: 20px;
-    margin: 0 0 2% 2%;
     color: #ffffff;
-    border: 3px solid #ccc;
     text-align: center;
     outline: none;
     text-decoration: none;
@@ -79,6 +54,7 @@
 }
 .ghost-button:hover,
 .ghost-button:active {
+  color: red;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.4);
   border-color: #fff;
@@ -86,134 +62,22 @@
   transition: background-color 0.3s ease-in,
               border-color 0.3s ease-in;
 }
-.div-right-hover {
-	width: 35%;
-	height: 45%;
-	border-radius: 100% 0 0 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 3px solid #ccc;
-	transition: background-color 0.2s ease-out,
-              color 0.2s ease-out;
+.text-h3-services {
+    color: bisque;
 }
-.div-right-hover:hover,
-.div-right-hover:active {
-  border-radius: 0%;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-color: rgba(255, 255, 255, 0.4);
-  transition: background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
-}
-.div-right-hover:hover .block{
-    display:block;
-    border: 3px solid #ccc;
-    text-align: center;
-    background: rgba(255,255,255, 0.95);
-    transform: translate(-60%, -36%) scale(1.5);
-}
-.block {
-    position: relative;
-    left:0;
-    bottom:0;
-    right:0;
-    top:0;
-    min-width: 192%;
-    min-height: 145%;
-    background:rgba(255,255,255, 0.7);
-    display:none;
-}
-.div-right-hover:hover .block-2{
-    display:block;
-    border: 3px solid #ccc;
-    text-align: center;
-    background: rgba(255,255,255, 0.95);
-    transform: translate(-60%, -36%) scale(1.5);
-}
-.block-2 {
-    position: relative;
-    left:0;
-    bottom:0;
-    right:0;
-    top:0;
-    min-width: 192%;
-    min-height: 145%;
-    background:rgba(255,255,255, 0.7);
-    display:none;
-}
-.div-right-hover:hover .block-3{
-    display:block;
-    border: 3px solid #ccc;
-    text-align: center;
-    background: rgba(255,255,255, 0.95);
-    transform: translate(-60%, -36%) scale(1.5);
-}
-.block-3 {
-    position: relative;
-    left:0;
-    bottom:0;
-    right:0;
-    top:0;
-    min-width: 192%;
-    min-height: 145%;
-    background:rgba(255,255,255, 0.7);
-    display:none;
-}
-.div-right-hover:hover .block-4{
-    display:block;
-    border: 3px solid #ccc;
-    text-align: center;
-    background: rgba(255,255,255, 0.95);
-    transform: translate(-60%, -36%) scale(1.5);
-}
-.block-4 {
-    position: relative;
-    left:0;
-    bottom:0;
-    right:0;
-    top:0;
-    min-width: 192%;
-    min-height: 145%;
-    background:rgba(255,255,255, 0.7);
-    display:none;
-}
-.div-right-hover:hover .block-5{
-    display:block;
-    border: 3px solid #ccc;
-    text-align: center;
-    background: rgba(255,255,255, 0.95);
-    transform: translate(-60%, -36%) scale(1.5);
-}
-.block-5 {
-    position: relative;
-    left:0;
-    bottom:0;
-    right:0;
-    top:0;
-    min-width: 192%;
-    min-height: 145%;
-    background:rgba(255,255,255, 0.7);
-    display:none;
-}
-.div-right-hover:hover .block-6{
-    display:block;
-    border: 3px solid #ccc;
-    text-align: center;
-    background: rgba(255,255,255, 0.95);
-    transform: translate(-60%, -36%) scale(1.5);
-}
-.block-6 {
-    position: relative;
-    left:0;
-    bottom:0;
-    right:0;
-    top:0;
-    min-width: 192%;
-    min-height: 145%;
-    background:rgba(255,255,255, 0.7);
-    display:none;
+.btn-services {
+    font-size: large;
 }
 
-
-
-
+@media (max-width: 768px) {
+    .text-h3-services {
+        font-size: 40px;
+    }
+    .services-button-box {
+        top: 20%;
+    }
+    .btn-services {
+        width: 40%;
+        font-size: large;
+    }
+}
