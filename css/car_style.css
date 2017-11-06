@@ -156,8 +156,8 @@ button:focus {
 }
 .body-btn {
     display: none;
-    width: 14.7rem;
-    width: 20.5em;    
+    /* width: 14.7rem; эта строка так тут и была то есть были и ремы и ем-ы */
+    width: 22.5em;   
 }
 .list_body {
     display: none;
