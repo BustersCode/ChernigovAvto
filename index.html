@@ -2,19 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-	<link rel="stylesheet" href="css/car_style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- mobile menu -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- mobile menu -->
+    <link rel="stylesheet" href="css/car_style.css">
     <link rel="stylesheet" href="css/base_style.css">
-    <title>INDEX</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.jqDock.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>index</title> <link rel="icon" type="image/png" href="img/logoShAv.png" />
 </head>
+
 <body>
     <div class="wrapper">
+        
         <!-- header -->
         <section class="header container-fluid no-gutter">
             <!-- top-bar -->
@@ -31,7 +41,7 @@
         <!-- social -->
                 <div class="col-xs-8 site-info">
                     <div class="site-info-block">
-                            <span text-color="white">03048, Киев, Озерная 16 |  Свяжитесь с нами (044)246-1277</span>
+                            <i class="fa fa-map-marker" aria-hidden="true" aria-hidden="true"></i> <span text-color="white">03048, Киев, Озерная 16 |  Свяжитесь с нами <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:000999222" class="footer-phone"><strong>(777)908-87-67</strong></a></span>
                     </div>
                 </div>
               
@@ -39,24 +49,31 @@
             </div>
             <!-- top-bar end -->
 
-            <!-- navigation -->
-        
-            <nav class="navbar navbar-default">
-                    <div class="container header-menu">
+            <!-- navigation -->    
+           <nav class="navbar navbar-default">
+                    <div class="container-fluid header-menu">
                       <div class="navbar-header">
-                          
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                          </button>
                         <div class="header-logo">
                             <a href="#!" class="brand-logo"><img src="img/logoShAv.png" alt="Logo" width="120"></a>
                         </div>
                       
                     </div>
-                      <ul class="nav navbar-nav navbar-right">
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+
+                      <ul class="nav navbar-nav nav-top navbar-right">
                         <li><a href="#">ГЛАВНАЯ</a></li>
                         <li><a href="#">УСЛУГИ</a></li>
                         <li><a href="#">АКЦИИ</a></li>
                         <li><a href="#">О КОМПАНИИ</a></li>
                         <li><a href="#">КОНТАКТЫ</a></li>
                       </ul>
+                    </div>
                     </div>
                   </nav>
         <!-- navigation end -->
@@ -65,184 +82,102 @@
 
         <!-- slider -->
 
-        <section id="slider-section" class="container-flutd no-gutter">
+        <section id="slider-section">
+                <div class="container-fluid no-gutter"> 
 
-                <div id="block-for-slider">
-                        <div id="viewport">
-                            <ul id="slidewrapper">
-                
-                <!-- 1 slider img-->
-                               <li class="slide"><img src="img/slider1.jpg" alt="1" class="slide-img">
-                                <div class="text-on-slider"> 
-                                  <div class="info-slider">
-                                       <b><p>50% СКИДКА</p></b>
-                                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
-                                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
-                                      <button type="button" class="btn btn-default">Детали акции</button>
-                                       
-                                  </div>
-                                </div>
-                              </li>
-                
-                
-                <!--2 slider img-->
-                              <li class="slide"><img src="img/slider1.jpg" alt="2" class="slide-img ">
-                                <div class="text-on-slider"> 
-                                  <div class="info-slider">
-                                       <b><p>50% СКИДКА</p></b>
-                                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
-                                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
-                                     
-                                       
-                                  </div>
-                                </div>
-                              </li>
-                
-                
-                 <!--3 slider img-->
-                               <li class="slide"><img src="img/slider1.jpg" alt="3" class="slide-img">
-                                <div class="text-on-slider"> 
-                                  <div class="info-slider">
-                                       <b><p>50% СКИДКА</p></b>
-                                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
-                                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
-                                     
-                                       
-                                  </div>
-                                </div>
-                              </li> 
-                <!-- 4 slider img_-->
-                              <li class="slide"><img src="img/slider1.jpg" alt="4" class="slide-img">
-                                <div class="text-on-slider"> 
-                                  <div class="info-slider">
-                                       <b><p>50% СКИДКА</p></b>
-                                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
-                                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
-                                     
-                                       
-                                  </div>
-                                </div>
-                              </li>            
-                               
-                            </ul>
-                
-                
-                
-                    <!--Next-PREW-BOTTOM-->        
-                
-                            <div id="prev-next-btns">
-                                <div id="prev-btn">&lsaquo;</div>
-                                <div id="next-btn">&rsaquo;</div>
-                            </div>
-                
-                            <ul id="nav-btns">
-                                <li class="slide-nav-btn"></li>
-                                <li class="slide-nav-btn"></li>
-                                <li class="slide-nav-btn"></li>
-                                <li class="slide-nav-btn"></li>
-                            </ul>
-                        </div>
-                    </div>
-                
-                  
-                
-                
-                
-                
-                     
-                   </div>   <!--for container
-                
-                
-                
-                      <!--Import jQuery before materialize.js-->
+<div class="container">
+   
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/slider2.jpg" alt="Los Angeles" style="width:100%;">
+        
+        <!--INFORMATION ON SLIDER-->
+        <div class=" info-slider">
+                 
                    
-                
-                      <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-                      
-                
-                <script>
-                var slideNow = 1;
-                var slideCount = $('#slidewrapper').children().length;
-                var slideInterval = 2000;
-                var navBtnId = 0;
-                var translateWidth = 0;
-                
-                $(document).ready(function() {
-                    var switchInterval = setInterval(nextSlide, slideInterval);
-                
-                    $('#viewport').hover(function() {
-                        clearInterval(switchInterval);
-                    }, function() {
-                        switchInterval = setInterval(nextSlide, slideInterval);
-                    });
-                
-                    $('#next-btn').click(function() {
-                        nextSlide();
-                    });
-                
-                    $('#prev-btn').click(function() {
-                        prevSlide();
-                    });
-                
-                    $('.slide-nav-btn').click(function() {
-                        navBtnId = $(this).index();
-                
-                        if (navBtnId + 1 != slideNow) {
-                            translateWidth = -$('#viewport').width() * (navBtnId);
-                            $('#slidewrapper').css({
-                                'transform': 'translate(' + translateWidth + 'px, 0)',
-                                '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
-                                '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
-                            });
-                            slideNow = navBtnId + 1;
-                        }
-                    });
-                });
-                
-                
-                function nextSlide() {
-                    if (slideNow == slideCount || slideNow <= 0 || slideNow > slideCount) {
-                        $('#slidewrapper').css('transform', 'translate(0, 0)');
-                        slideNow = 1;
-                    } else {
-                        translateWidth = -$('#viewport').width() * (slideNow);
-                        $('#slidewrapper').css({
-                            'transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
-                        });
-                        slideNow++;
-                    }
-                }
-                
-                function prevSlide() {
-                    if (slideNow == 1 || slideNow <= 0 || slideNow > slideCount) {
-                        translateWidth = -$('#viewport').width() * (slideCount - 1);
-                        $('#slidewrapper').css({
-                            'transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
-                        });
-                        slideNow = slideCount;
-                    } else {
-                        translateWidth = -$('#viewport').width() * (slideNow - 2);
-                        $('#slidewrapper').css({
-                            'transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
-                            '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
-                        });
-                        slideNow--;
-                    }
-                }</script>
+                       <b><p>50% СКИДКА</p></b>
+                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
+                    
+                    
+
+                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
+                      <button type="button" class="btn btn-default">Детали акции</button>
+                       
+                  
+        </div>
 
 
+      </div> 
+
+      <div class="item">
+        <img src="img/slider1.jpg" alt="Chicago" style="width:100%;">
+           <!--INFORMATION ON SLIDER-->
+        <div class="row info-slider">
+                 <div class="hidden-xs col-sm-12 md-12 ">
+                       <b><p>30% СКИДКА</p></b>
+                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
+                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
+                      <button type="button" class="btn btn-default">Детали акции</button>
+                       
+                  </div>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="img/slider3.jpg" alt="New york" style="width:100%;">
+
+          <!--INFORMATION ON SLIDER-->
+        <div class="row info-slider">
+                 <div class="hidden-xs col-sm-12 md-12 ">
+                       <b><p>25% СКИДКА</p></b>
+                       <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
+                       <p>50% на техосмотр. Скидка действует при  условии покупки дополнительной услуги - мойка и химчистка салона всего за 10 000грн.</p>
+                      <button type="button" class="btn btn-default">Детали акции</button>
+                       
+                  </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+                    
+
+        </div>
+    
         </section>
         <!-- slider -->
 
         <!-- car -->
 
-        <section id="car-section" class="container-flutd no-gutter">
-            <div class="container">
+        <section id="car-section">
+            <div class="container-fluid no-gutter ">
 
                     <div class="car_box">
                             
@@ -310,23 +245,7 @@
                                                     </ul>
                                             </div>		
                                         </div>
-                                        <div class="clean">
-                                            <img class="clean-btn" src="img/shower.png" alt="">
-                                            <div class="list_clean">
-                                                    <ul class="drop-menu btn btn-default nav nav-pills nav-stacked disabled">
-                                                        <li>
-                                                            <a href="">lorem</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="">lorem</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="">lorem</a>
-                                                        </li>
-                                                    </ul>
-                                            </div>
-                                    
-                                        </div>
+                                      
                                     </div>
                             
                                 </div>
@@ -340,68 +259,160 @@
 
         <!-- services -->
 
-        <main>
-                <div class="wrapper-shares">
-                    <div class="box post-1">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block">
-                                <p class="price-info">Лучшая цена недели! Всего: 599 грн</p>
+        <section id="cervices-section">
+            <div class="container-fluid no-gutter ">
+
+                <!-- ROW 1 -->
+                    
+                    <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                <img src="img/changing-oil.png" alt="oil change">
+                                <div class="caption">
+                                  <h3>Thumbnail label</h3>
+                                  <p>Deserunt eiusmod ex eiusmod voluptate
+                                       dolore ullamco mollit excepteur exe
+                                       rcitation culpa tempor commodo adip
+                                       isicing. Dolor reprehenderit sit ut
+                                        nisi voluptate eiusmod. Adipisicin
+                                        g est enim velit voluptate est vel
+                                        it ut occaecat ad labore deserunt.
+                                        </p>
+                                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                </div>
+                              </div>
                             </div>
-                        </div>
+
+                            <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                      <img src="img/electrician.png" alt="electrician">
+                                      <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Deserunt eiusmod ex eiusmod voluptate
+                                             dolore ullamco mollit excepteur exe
+                                             rcitation culpa tempor commodo adip
+                                             isicing. Dolor reprehenderit sit ut
+                                              nisi voluptate eiusmod. Adipisicin
+                                              g est enim velit voluptate est vel
+                                              it ut occaecat ad labore deserunt.
+                                              </p>
+                                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-sm-6 col-md-4">
+                                        <div class="thumbnail">
+                                          <img src="img/salon.png" alt="oil change">
+                                          <div class="caption">
+                                            <h3>Thumbnail label</h3>
+                                            <p>Deserunt eiusmod ex eiusmod voluptate
+                                                 dolore ullamco mollit excepteur exe
+                                                 rcitation culpa tempor commodo adip
+                                                 isicing. Dolor reprehenderit sit ut
+                                                  nisi voluptate eiusmod. Adipisicin
+                                                  g est enim velit voluptate est vel
+                                                  it ut occaecat ad labore deserunt.
+                                                  </p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                          </div>
+                                        </div>
+                                      </div>
                     </div>
-                    <div class="box post-2">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-2">
-                                <p class="price-info">Лучшая цена недели! Всего: 555 грн</p>
+                   <!-- ROW 2 -->
+
+                   <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                          <div class="thumbnail">
+                            <img src="img/changing-oil.png" alt="oil change">
+                            <div class="caption">
+                              <h3>Thumbnail label</h3>
+                              <p>Deserunt eiusmod ex eiusmod voluptate
+                                   dolore ullamco mollit excepteur exe
+                                   rcitation culpa tempor commodo adip
+                                   isicing. Dolor reprehenderit sit ut
+                                    nisi voluptate eiusmod. Adipisicin
+                                    g est enim velit voluptate est vel
+                                    it ut occaecat ad labore deserunt.
+                                    </p>
+                              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
                             </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="box post-3">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-3">
-                                <p class="price-info">Лучшая цена недели! Всего: 888 грн</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box post-4">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-4">
-                                <p class="price-info">Лучшая цена недели! Всего: 777 грн</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box post-5">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-5">
-                                <p class="price-info">Лучшая цена недели! Всего: 299 грн</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box post-6">
-                        <a class="ghost-button" href="#">Подробнее</a>
-                        <div class="div-right-hover">
-                            <p class="price">ГРН</p>
-                            <div class="block-6">
-                                <p class="price-info">Лучшая цена недели! Всего: 199 грн</p>
-                            </div>
-                        </div>
-                    </div>	
+
+                        <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                  <img src="img/electrician.png" alt="electrician">
+                                  <div class="caption">
+                                    <h3>Thumbnail label</h3>
+                                    <p>Deserunt eiusmod ex eiusmod voluptate
+                                         dolore ullamco mollit excepteur exe
+                                         rcitation culpa tempor commodo adip
+                                         isicing. Dolor reprehenderit sit ut
+                                          nisi voluptate eiusmod. Adipisicin
+                                          g est enim velit voluptate est vel
+                                          it ut occaecat ad labore deserunt.
+                                          </p>
+                                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                      <img src="img/salon.png" alt="oil change">
+                                      <div class="caption">
+                                        <h3>Thumbnail label</h3>
+                                        <p>Deserunt eiusmod ex eiusmod voluptate
+                                             dolore ullamco mollit excepteur exe
+                                             rcitation culpa tempor commodo adip
+                                             isicing. Dolor reprehenderit sit ut
+                                              nisi voluptate eiusmod. Adipisicin
+                                              g est enim velit voluptate est vel
+                                              it ut occaecat ad labore deserunt.
+                                              </p>
+                                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                      </div>
+                                    </div>
+                                  </div>
                 </div>
-            </main>
+
+                    
+
+            </div>
+        </section>
 
         <!-- end services -->
 
         <!-- corusel -->
+
+        <section id="corusel-section">
+                <div class="container-fluid no-gutter ">
+                    <div class='menu-karusel-test'>
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                            <img src='img/tiny-logo/kia.png' title='Favourites' alt='' />
+                    </div>
+                </div>
+
+
+            </section>
 
         <!-- end corusel -->
 
@@ -410,8 +421,8 @@
         
         <!-- footer -->
 
-        <footer id="footer" class="container-fluid no-gutter">
-                <div class="container footer-top">
+        <footer id="footer">
+                <div class="container-fluid footer-top">
                     <div class="row">
                         <!-- footer about -->
                         <div class="col-lg2 col-md-2 col-ms-6 col-xs-12">
@@ -483,9 +494,54 @@
              
     </div>
 
+    <div class="container">
+            
+             <!-- Trigger the modal with a button -->
+             <button type="button" class="btn btn-info btn-lg pulse-button" data-toggle="modal" data-target="#myModal">Запись на сервис</button>
+           
+             <!-- Modal -->
+             <div class="modal fade" id="myModal" role="dialog">
+               <div class="modal-dialog modal-sm">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <form class="feedback-form" action="/action_page.php">
+               <label for="fname">Фамилия</label>
+               <input type="text" id="fname" name="firstname" placeholder="Ваша фамилия..">
+           
+               <label for="lname">Имя</label>
+               <input type="text" id="lname" name="lastname" placeholder="Ваше имя..">
+           
+               <label for="country">Город</label>
+               <select id="country" name="country">
+                 <option value="australia">Киев</option>
+                 <option value="canada">Чернигов</option>
+                 <option value="usa">Браворы</option>
+               </select>
+               <label for="date">Желаемая дата</label><br>
+               <input type="date" id="date" name="date" placeholder="Желаемая дата.."><br>
+               <label for="tel">Номер телефона</label><br>
+               <input type="tel" id="tel" name="tel" placeholder="Ваш номер телефона.."><br>
+               <label for="tel">Номер автомобиля</label><br>
+               <input type="tel" id="tel" name="tel" placeholder="Номер Вашего атомобиля.."><br>
+               <label for="subject">Комментарии</label>
+               <textarea id="subject" name="subject" placeholder="Ваши комментарии.." ></textarea>
+             
+              <br>
+               <input class="button" type="submit" value="ОТПРАВИТЬ">
+             </form>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           
+      
+
     
 
 
-    
 </body>
 </html>

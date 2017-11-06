@@ -28,6 +28,7 @@ button:focus {
     height: 18rem;
 }
 .car {
+
     position: relative;
     height: 14rem;
     left: 8rem;
@@ -43,6 +44,8 @@ button:focus {
     width: 37rem;
     position: relative;
     /* z-index: 10; */
+    height: 21.5em;
+    width: 54em;
     
 }
 .wheel {
@@ -57,6 +60,9 @@ button:focus {
     /* display: none; */
     z-index: 2;
     width: 20.3rem;
+
+    /* z-index: 1; */
+    width: 28em;
     
 }
 .list_transmition {
@@ -85,8 +91,11 @@ button:focus {
     height: 2rem; 
 }
 .engine-btn {
+
     display: none;    
     width: 17rem;
+    /* display: none;     */
+    width: 26em;
 }
 .list_engine {
     display: none;
@@ -109,6 +118,10 @@ button:focus {
     left: 0.5rem;
     width: 12rem;
     height: 5rem;
+    top: 180px;
+    left: 49px;
+    width: 19em;
+    height: 7em;
 }
 .fl-btn {
     display: none;
@@ -144,7 +157,7 @@ button:focus {
 .body-btn {
     display: none;
     width: 14.7rem;
-        
+    width: 20.5em;    
 }
 .list_body {
     display: none;
@@ -208,14 +221,31 @@ button:focus {
 }
 .drop-menu.nav.btn > li > a {
     line-height: initial;
+    border-radius: 0;
 }
 .drop-menu a {
     color: black;
     text-transform: uppercase;
     font-size: 12px;
 }
+
 /* @media screen and (orientation:portrait) and (max-width:992px), screen and (orientation:landscape) and (max-width:768px) {
     .car_box {
         display: none;
     }
 } */
+
+#car-section {
+    height: 400px;
+    margin-top:50px;
+}
+
+@media screen and (orientation:portrait) and (max-width:992px), screen and (orientation:landscape) and (max-width:768px) {
+    .car_box, .info-slider{
+        display: none;
+    }
+    #car-section {
+        height: 0px;
+    }
+}
+
