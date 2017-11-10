@@ -1,6 +1,6 @@
 // karusel
 $(document).ready(function($){
-			$('.menu-karusel-test').jqDock();
+			$('#menu-carousel').jqDock();
 		});
 // slider
         
