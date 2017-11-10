@@ -273,7 +273,9 @@
     min-height: 150px;
     padding-top: 30px;
 }
-
+#corusel-section {
+	height: 85px;
+}
 /* end corusel */
 
 /*footer*/
