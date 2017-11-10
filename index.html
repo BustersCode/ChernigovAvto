@@ -553,26 +553,18 @@
                    <div class="modal-header">
                      <button type="button" class="close" data-dismiss="modal">&times;</button>
                      <form class="feedback-form" action="/action_page.php">
-               <label for="fname">Фамилия</label>
-               <input type="text" id="fname" name="firstname" placeholder="Ваша фамилия..">
-           
-               <label for="lname">Имя</label>
-               <input type="text" id="lname" name="lastname" placeholder="Ваше имя..">
-           
-               <label for="country">Город</label>
-               <select id="country" name="country">
-                 <option value="australia">Киев</option>
-                 <option value="canada">Чернигов</option>
-                 <option value="usa">Браворы</option>
-               </select>
-               <label for="date">Желаемая дата</label><br>
-               <input type="date" id="date" name="date" placeholder="Желаемая дата.."><br>
-               <label for="tel">Номер телефона</label><br>
-               <input type="tel" id="tel" name="tel" placeholder="Ваш номер телефона.."><br>
-               <label for="tel">Номер автомобиля</label><br>
-               <input type="tel" id="tel" name="tel" placeholder="Номер Вашего атомобиля.."><br>
-               <label for="subject">Комментарии</label>
-               <textarea id="subject" name="subject" placeholder="Ваши комментарии.." ></textarea>
+		       <label for="lname">Имя</label>
+		       <input type="text" id="lname" name="lastname" placeholder="Ваше имя.">
+		       <label for="lname">Цель визита</label>
+		       <input type="text" id="target" name="target" placeholder="Цель визита">
+		       <label for="date">Желаемая дата и время визита</label><br>
+		       <input type="datetime-local" id="date" name="date" placeholder="Желаемая дата визита"><br>
+		       <label for="tel">Номер телефона</label><br>
+		       <input type="tel" id="tel" name="tel" placeholder="Ваш номер телефона.."><br>
+		       <label for="tel">Гос. номер автомобиля</label><br>
+		       <input type="tel" id="tel" name="tel" placeholder="Гос. номер автомобиля"><br>
+		       <label for="subject">Пожелания к визиту</label>
+		       <textarea id="subject" name="subject" placeholder="Пожелания к визиту" ></textarea>
              
               <br>
                <input class="button" type="submit" value="ОТПРАВИТЬ">
