@@ -490,7 +490,10 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-
+.feedback-form label, .feedback-form input {
+  margin: 1% 0 0;
+  padding: 1%;
+}
 
 form{
  width:100%;
