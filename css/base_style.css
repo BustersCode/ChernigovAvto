@@ -276,6 +276,10 @@
 #corusel-section {
 	height: 85px;
 }
+#menu-carousel {
+  overflow: hidden;
+  width: 100%;
+}
 /* end corusel */
 
 /*footer*/
