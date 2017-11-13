@@ -280,6 +280,9 @@
   overflow: hidden;
   width: 100%;
 }
+#menu-carousel>div {
+  margin: 3%;
+}
 /* end corusel */
 
 /*footer*/
