@@ -276,6 +276,16 @@
 #corusel-section {
 	height: 85px;
 }
+#menu-carousel {
+  overflow: hidden;
+  width: 100%;
+}
+#menu-carousel>div:first-child {
+  display: none;
+}
+#menu-carousel>div:last-child div {
+  width: 100%;
+}
 /* end corusel */
 
 /*footer*/
