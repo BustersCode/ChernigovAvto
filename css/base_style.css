@@ -280,8 +280,16 @@
   overflow: hidden;
   width: 100%;
 }
+
+#menu-carousel>div:first-child {
+  display: none;
+}
+#menu-carousel>div:last-child div {
+  width: 100%;
+
 #menu-carousel>div {
   margin: 25px 0 0 0;
+
 }
 /* end corusel */
 
