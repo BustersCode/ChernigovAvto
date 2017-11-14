@@ -290,11 +290,10 @@
 	border-top: 4px solid #494c58;
 	background: #7a6652;
 	min-height: 200px;
-	padding: 20px 0 0;
+    padding: 20px 0 0;
 }
 
-#footer .footer-top .footer-heading {
-	font: 11px open sans,Helvetica Neue,Arial,sans-serif;
+#footer .footer-top .footer-heading{	
 	color: #fff;
 	text-transform: uppercase;
 	padding: 0;
