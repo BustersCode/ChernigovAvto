@@ -294,12 +294,12 @@
 }
 
 #footer .footer-top .footer-heading {
-	font: 13px open sans,Helvetica Neue,Arial,sans-serif;
+	font: 11px open sans,Helvetica Neue,Arial,sans-serif;
 	color: #fff;
 	text-transform: uppercase;
 	padding: 0;
 	margin: 0 0 20px;
-	position: relative;
+	position: absolute;
 	left: 39px;
 }
 #footer .footer-top {
@@ -342,6 +342,10 @@
     margin-right: 0.5em;
     font-size: 2em;
 	color: #fff;
+}
+
+#footer ul {
+    margin-top: 30px;
 }
 
 /*end footer*/
