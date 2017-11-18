@@ -124,7 +124,7 @@
              <div class="item">
               <img src="img/slider1.jpg" alt="Chicago" style="width:100%;">
               <!--INFORMATION ON SLIDER-->
-            
+              <div class="row info-slider">
                <div class="hidden-xs col-sm-12 md-12 ">
                  <b><p>30% СКИДКА</p></b>
                  <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
@@ -132,14 +132,14 @@
                  <button type="button" class="btn btn-default">Детали акции</button>
 
                </div>
-           
+             </div>
            </div>
 
            <div class="item">
             <img src="img/slider3.jpg" alt="New york" style="width:100%;">
 
             <!--INFORMATION ON SLIDER-->
-            
+            <div class="row info-slider">
              <div class="hidden-xs col-sm-12 md-12 ">
                <b><p>25% СКИДКА</p></b>
                <p>ТЕХНИЧЕСКИЙ ОСМОТР</p>
@@ -147,7 +147,7 @@
                <button type="button" class="btn btn-default">Детали акции</button>
 
              </div>
-          
+           </div>
          </div>
        </div>
 
@@ -181,7 +181,7 @@
 
 <section id="car-section">
   <div class="conteiner-fluid">
-
+    <div class="row">
       <div class="col-xs-0 col-sm-1"></div>
       <div class="car_box col-xs-12 col-sm-9">
         <div class="clean">
@@ -277,7 +277,7 @@
 
                           </div>
                           <!-- <div class="col-xs-0 col-sm-2"></div> -->
-
+                        </div>
                       </div>
                     </section>    
 
@@ -291,7 +291,7 @@
 
                         <!-- ROW 1 -->
 
-
+                        <div class="row">
                           <div class="col-sm-6 col-md-4">
                             <div class="thumbnail">
                               <img src="img/changing-oil.png" alt="oil change">
@@ -345,10 +345,10 @@
                          </div>
                        </div>
                      </div>
-
+                   </div>
                    <!-- ROW 2 -->
 
-
+                   <div class="row">
                     <div class="col-sm-6 col-md-4">
                       <div class="thumbnail">
                         <img src="img/changing-oil.png" alt="oil change">
@@ -402,7 +402,7 @@
                       </div>
                     </div>
                    </div>
-
+                  </div>
 
 
 
@@ -424,6 +424,7 @@
 
          <footer id="footer">
           <div class="container-fluid footer-top">
+            <div class="row">
               <!-- footer about -->
               <div class="col-lg2 col-md-2 col-ms-6 col-xs-12">
                 <h5 class="footer-heading">О нас
@@ -467,9 +468,9 @@
             </div>
             <!-- footer contact -->
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h5 class="footer-heading">Зв'язатися з нами
+          <!-- <h5 class="footer-heading">Зв'язатися з нами
             <span class="h5-divider"></span>
-          </h5>
+          </h5> -->
 
           <ul class="contact-info-menu">
            <li><i class="fa fa-map-marker" aria-hidden="true" aria-hidden="true"></i><a href="https://maps.google.com/maps?q=2191 Idlewood Rd Tucker Georgia 30084" class="footer-address" target="_blank">м. Чернігів <p>Набережна 11</p></a></li>
@@ -487,6 +488,7 @@
         </div>
       </div>
 
+    </div>
   </div>
 </footer>
 <!-- end footer -->
@@ -528,7 +530,7 @@
                </div>
              </div>
            </div>
-  </div>
+         </div>
 
 
 
