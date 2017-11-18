@@ -76,7 +76,6 @@
 
 
 #slider-section, .jumbotron {
-   /* height: 400px;*/
     border-bottom: 4px solid #494c58;
 }
 
@@ -260,6 +259,8 @@
 
 /* END HEADER */
 
+
+
 /* services */
 
 .thumbnail img {
@@ -269,6 +270,15 @@
 /* end services */
 
 /* corusel */
+
+.menu-karusel-test {
+	height: 45px;
+	width: 100%;
+}
+.menu-carusel-test img {
+	height: 45px;
+}
+
 #cervices-section {
     min-height: 150px;
     padding-top: 30px;
